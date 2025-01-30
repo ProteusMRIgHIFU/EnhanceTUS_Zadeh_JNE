@@ -1,6 +1,6 @@
 # Scripts for data processing for “Enhancing Transcranial Ultrasound Stimulation Planning with MRI-Derived Skull Masks: A Comparative Analysis with CT-based processing”
 
-This collection includes the scripts and steps required to reproduce the analyses presented in the publication Zadeh *et al.* 2024, *Enhancing Transcranial Ultrasound Stimulation Planning with MRI-Derived Skull Masks: A Comparative Analysis with CT-based processing*, DOI:XXXX. Below is a detailed description of each file and the procedure to execute the analyses.
+This collection includes the scripts and steps required to reproduce the analyses presented in the publication Zadeh *et al.* 2024, *Enhancing Transcranial Ultrasound Stimulation Planning with MRI-Derived Skull Masks: A Comparative Analysis with CT-based processing*, [DOI:10.1088/1741-2552/adab22](https://doi.org/10.1088/1741-2552/adab22). Below is a detailed description of each file and the procedure to execute the analyses.
 
 ## Directory overview:
 *	The repository contains the following scripts to reproduce the results.
@@ -15,9 +15,9 @@ Note: Specific locations (e.g., Fp1, Fp2, Fpz) were excluded due to complication
 
 # Step-by-Step Guide
 ## 1. Check requirements
-Verify you have the minimum hardware requirements to run BabelBrain (https://proteusmrighifu.github.io/BabelBrain/installation.html)
+Verify you have the minimum hardware requirements to run [BabelBrain](https://proteusmrighifu.github.io/BabelBrain/installation.html)
 ## 2. Install SimNIBS 4.1.0
-Use installer for v4.1.0 from https://github.com/simnibs/simnibs/releases/tag/v4.1.0 . Take note of SimNIBS path; for example,/Users/john/Applications//SimNIBS-4.1
+Use installer for [v4.1.0](https://github.com/simnibs/simnibs/releases/tag/v4.1.0) version. Take note of SimNIBS path; for example,/Users/john/Applications//SimNIBS-4.1
 ## 3. Clone BabelBrain source code
 Clone source code from https://github.com/ProteusMRIgHIFU/BabelBrain. While the latest version should be compatible with the scripts, we recommend using version 0.3.5 to ensure the reproducibility of the results in the manuscript. You can do a checkout of the tag `0.3.5` to select the version.
 ## 4. Create a conda environment with the recommended YAML file
