@@ -27,7 +27,7 @@ After downloading the MRI and CT data, delete the included directories of previo
 ### 5.a. Default Settings
 Run the following command:
 
-`charm <id> T1.nii.gz T2.nii.gz –forceqform`
+`charm <id> T1.nii.gz T2.nii.gz --forceqform`
 ### 5.b. Custom CHARM FAT Atlas Integration. 
 The custom CHARM FAT atlas files are in the directory [MRI_Custom_Settings](MRI_Custom_Settings) 
 ### 5.d. Setup:
