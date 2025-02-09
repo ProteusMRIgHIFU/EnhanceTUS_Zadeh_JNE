@@ -36,7 +36,7 @@ The custom CHARM FAT atlas files are in the directory [MRI_Custom_Settings](MRI_
 
 Download `settings_fat.ini` and `shared_gmm_fat.txt` and place them together in a directory.
 #### 5.d.2.	Run with Custom Atlas:
-`charm <subid> T1.nii.gz T2.nii.gz --usesettings <path_to_settings_fat.ini> --noneck –forceqform`
+`charm <subid> T1.nii.gz T2.nii.gz --usesettings <path_to_settings_fat.ini> --noneck --forceqform`
 ## 6. Generate EEG Normals
 Run `0_eeg_normals.py` script with a conda environment based on SimNIBS specifying the paths to the SimNIBS output for the dataset. For example
     
